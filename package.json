@@ -1,0 +1,28 @@
+{
+  "name": "@aalexandree-g/hrnet-modal",
+  "version": "1.0.7",
+  "type": "module",
+  "private": false,
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "vite": "^7.2.4"
+  }
+}
